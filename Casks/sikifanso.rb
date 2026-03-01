@@ -3,7 +3,7 @@ cask "sikifanso" do
   name "sikifanso"
   desc "Bootstrap homelab Kubernetes clusters with Cilium and ArgoCD in a single command"
   homepage "https://github.com/sikifanso/sikifanso"
-  version "0.7.0"
+  version "0.7.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "sikifanso" do
   on_macos do
     on_intel do
       url "https://github.com/sikifanso/sikifanso/releases/download/v#{version}/sikifanso_#{version}_darwin_amd64.tar.gz"
-      sha256 "5d5dafdb3bd9815483c91fb749d0f1a7b16525143301c7715005d8a559d7fdc7"
+      sha256 "b3c810516aad75d40d2eae0784bab7b6b2b1a4cd70be1b2dc27b9e217349c9cd"
     end
     on_arm do
       url "https://github.com/sikifanso/sikifanso/releases/download/v#{version}/sikifanso_#{version}_darwin_arm64.tar.gz"
-      sha256 "847a49f6970d85d7abd342cdce2501b32f1705e6441fe82c44795f07c79aa482"
+      sha256 "e31d420edc250cd072559fdd2f70ab3129a6a32bb097b41dbfffab51578913d4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sikifanso/sikifanso/releases/download/v#{version}/sikifanso_#{version}_linux_amd64.tar.gz"
-      sha256 "e70699e51ecb4e93087648140a4d63c86a8344ef535805627346bd8e648168a5"
+      sha256 "76aa54badcfc43220cffa803c593ff3072e1053d04ca1d018a570d63dbae278b"
     end
     on_arm do
       url "https://github.com/sikifanso/sikifanso/releases/download/v#{version}/sikifanso_#{version}_linux_arm64.tar.gz"
-      sha256 "ca3f6156357dd5b7b37b75f7786134bef5264c58c8d53e41c8b6ab92629747bd"
+      sha256 "298f8d2b2b2994a95ea4425dadacd3ea152d2a14218c058b50a1d8df3e9ac293"
     end
   end
 
